@@ -17,9 +17,11 @@ class Dropdown {
   toggleContent() {
     // Toggle the ".dropdown-hidden" class off and on
     this.content.classList.toggle('dropdown-hidden');
+    const menuAnim = TweenMax.to(".dropdown-content", 0.5, {opacity:1, scale:1, ease: Power3.easeInOut, y: 10}); 
   }
 }
 
 
 // Nothing to do here, just study what the code is doing and move on to the Dropdown class
 let dropdowns = document.querySelectorAll('.dropdown').forEach( dropdown => new Dropdown(dropdown));
+

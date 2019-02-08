@@ -11,7 +11,8 @@
 }
 .dropdown .dropdown-button {
   padding: 15px;
-  border: 3px solid #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
   color: #ffffff;
   font-size: 20px;
   font-weight: bold;
@@ -28,6 +29,9 @@
   align-items: center;
   margin-top: 10px;
   border: 2.5px solid #931d25;
+  border-radius: 8px;
+  opacity: 0;
+  scale: 0;
 }
 .dropdown .dropdown-link {
   width: 100%;
